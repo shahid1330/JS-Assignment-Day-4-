@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+><html>
+    <head>
+        <title>Javascript Assignment 3</title>
+        <style>
+            .box{
+                height: 100px;
+                width: 100px;
+                background-color: coral;
+                transition: 2s;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="yes" class="box">
+            This is Javascript Essential
+        </div>
+
+        <button onclick="changeTheShape()">Change the shape</button>
+
+        <script>
+            function changeTheShape()
+            {
+                document.querySelector("#yes").style.marginBottom="200%";
+                document.querySelector("#yes").style.backgroundColor="cyan";
+            }
+        </script>
+    </body>
+</html>
